@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+</script>
+
+<header>
+  <div>Spotics</div>
+</header>
+<main>
+  <form method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button>Upload</button>
+  </form>
+  
+</main>
